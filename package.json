@@ -1,0 +1,33 @@
+{
+  "name": "adviceing",
+  "version": "1.0.0",
+  "description": "My priceless Nuxt.js project",
+  "author": "funnythingz",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.7.1",
+    "vuetify": "^1.5.14",
+    "vuetify-loader": "^1.2.2"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "ava": "^1.4.1",
+    "browser-env": "^3.2.5",
+    "nodemon": "^1.18.9",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^0.1.1",
+    "require-extension-hooks-vue": "^2.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
