@@ -40,7 +40,9 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
+    '@/plugins/vuetify',
+    '@/plugins/firebase',
+    '@/plugins/firestore'
   ],
 
   /*
