@@ -1,5 +1,5 @@
 <template lang="pug">
-v-app
+.container
   nuxt
 </template>
 

@@ -1,4 +1,3 @@
-import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 
 export default {
@@ -33,14 +32,13 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl'
+    { src: 'bulma/bulma.sass', lang: 'sass' }
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify',
     '@/plugins/firebase',
     '@/plugins/firestore'
   ],
@@ -65,13 +63,6 @@ export default {
   ** Build configuration
   */
   build: {
-    transpile: ['vuetify/lib'],
-    plugins: [new VuetifyLoaderPlugin()],
-    loaders: {
-      stylus: {
-        import: ['~assets/style/variables.styl']
-      }
-    },
     /*
     ** You can extend webpack config here
     */
